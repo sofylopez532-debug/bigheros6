@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Hero</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav aria-label="Navegacion principal">
+            <a href="#inicio">Inicio</a>
+            <a href="#personajes">Personajes</a>
+            <a href="#historia">Historia</a>
+        </nav>
+    </header>
+
+<!-- contenido principal -->
+<section id="inicio">
+    <div class="hero-copy">
+        <span class="eyebrow">Guillermo Manuel presenta</span>
+        <h1>Big Hero</h1>
+
+        <p>Bienvenido a la pagina oficial de <strong>Big Hero</strong>. <br> Una historia sobre un grupo de heroes que lucha contra un villano de nanobots con sus supertrajes, liderados por un personaje muy especial y divertido llamado <strong>Baymax</strong>.</p>
+        <a class="cta" href="#historia">Conoce su historia</a>
+    </div>
+    <figure class="hero-image">
+        <img src="Imagenes/Big-Hero-6-Hiro-Baymax.jpg" alt="Baymax y Hiro sobrevolando San Fransokyo de noche">
+    </figure>
+</section>
+
+<section id="personajes" aria-label="Personajes">
+    <h2>El equipo</h2>
+    <figure class="team-image">
+        <img src="Imagenes/Big_hero_6_finale_.webp" alt="Baymax, Hiro y el equipo de Big Hero 6 reunidos en San Fransokyo">
+    </figure>
+    <div class="team-gallery-container">
+        <button class="team-gallery-toggle" type="button" aria-expanded="false" aria-controls="team-gallery">
+            Conoce al equipo
+        </button>
+        <div class="team-gallery" id="team-gallery" hidden>
+            <a class="team-card" href="Personajes/hiro.html">
+                <img class="team-card-image" src="Imagenes/hiro hamada1.jpg" alt="Hiro Hamada">
+                <h3>Hiro Hamada</h3>
+                <p>Inventor y lider del equipo.</p>
+            </a>
+            <a class="team-card" href="Personajes/baymax.html">
+                <img class="team-card-image" src="Imagenes/baymax1.webp" alt="Baymax">
+                <h3>Baymax</h3>
+                <p>Robot cuidador y heroe de gran corazon.</p>
+            </a>
+            <a class="team-card" href="Personajes/gogo.html">
+                <img class="team-card-image" src="Imagenes/Go go tomago.webp" alt="Go Go Tomago">
+                <h3>Go Go Tomago</h3>
+                <p>Experta en velocidad y electromagnetismo.</p>
+            </a>
+            <a class="team-card" href="Personajes/wasabi.html">
+                <img class="team-card-image" src="Imagenes/wasabi.jpeg" alt="Wasabi">
+                <h3>Wasabi</h3>
+                <p>Especialista en precision y tecnologia laser.</p>
+            </a>
+            <a class="team-card" href="Personajes/honey-lemon.html">
+                <img class="team-card-image" src="Imagenes/honey lemon.webp" alt="Honey Lemon">
+                <h3>Honey Lemon</h3>
+                <p>Quimica creativa y optimista.</p>
+            </a>
+            <a class="team-card" href="Personajes/fred.html">
+                <img class="team-card-image" src="Imagenes/Fred_Superhero_Render.webp" alt="Fred">
+                <h3>Fred</h3>
+                <p>Fanatico de los superheroes y del trabajo en equipo.</p>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="historia" aria-label="Historia">
+    <h2>Un equipo. Un gran corazon. Una mision.</h2>
+    <p>Hiro Hamada es un joven genio de la robotica que, junto a Baymax y sus amigos, transforma una perdida en una aventura llena de tecnologia, amistad y valentia para proteger San Fransokyo.</p>
+    <figure class="history-image">
+        <img src="Imagenes/El equipo1.jpg" alt="El equipo de Big Hero 6">
+    </figure>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
